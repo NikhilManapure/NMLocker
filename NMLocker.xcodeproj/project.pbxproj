@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2139BC91E370AC00062F2CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2139BC81E370AC00062F2CF /* AppDelegate.swift */; };
+		D2139BCB1E370AC00062F2CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2139BCA1E370AC00062F2CF /* ViewController.swift */; };
+		D2139BCE1E370AC00062F2CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2139BCC1E370AC00062F2CF /* Main.storyboard */; };
+		D2139BD01E370AC00062F2CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2139BCF1E370AC00062F2CF /* Assets.xcassets */; };
+		D2139BD31E370AC00062F2CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2139BD11E370AC00062F2CF /* LaunchScreen.storyboard */; };
+		D2139BDE1E370AC00062F2CF /* NMLockerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2139BDD1E370AC00062F2CF /* NMLockerTests.swift */; };
+		D2139BE91E370AC00062F2CF /* NMLockerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2139BE81E370AC00062F2CF /* NMLockerUITests.swift */; };
+		D2139C071E370BC10062F2CF /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2139C011E370BC10062F2CF /* BlurView.swift */; };
+		D2139C081E370BC10062F2CF /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2139C021E370BC10062F2CF /* LockView.swift */; };
+		D2139C091E370BC10062F2CF /* LockView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2139C031E370BC10062F2CF /* LockView.xib */; };
+		D2139C0A1E370BC10062F2CF /* PinButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2139C041E370BC10062F2CF /* PinButton.swift */; };
+		D2139C0B1E370BC10062F2CF /* DotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2139C051E370BC10062F2CF /* DotView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2139BDA1E370AC00062F2CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2139BBD1E370AC00062F2CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2139BC41E370AC00062F2CF;
+			remoteInfo = NMLocker;
+		};
+		D2139BE51E370AC00062F2CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2139BBD1E370AC00062F2CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2139BC41E370AC00062F2CF;
+			remoteInfo = NMLocker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2139BC51E370AC00062F2CF /* NMLocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NMLocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2139BC81E370AC00062F2CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2139BCA1E370AC00062F2CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2139BCD1E370AC00062F2CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2139BCF1E370AC00062F2CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2139BD21E370AC00062F2CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2139BD41E370AC00062F2CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2139BD91E370AC00062F2CF /* NMLockerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NMLockerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2139BDD1E370AC00062F2CF /* NMLockerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMLockerTests.swift; sourceTree = "<group>"; };
+		D2139BDF1E370AC00062F2CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2139BE41E370AC00062F2CF /* NMLockerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NMLockerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2139BE81E370AC00062F2CF /* NMLockerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMLockerUITests.swift; sourceTree = "<group>"; };
+		D2139BEA1E370AC00062F2CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2139C011E370BC10062F2CF /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		D2139C021E370BC10062F2CF /* LockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockView.swift; sourceTree = "<group>"; };
+		D2139C031E370BC10062F2CF /* LockView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LockView.xib; sourceTree = "<group>"; };
+		D2139C041E370BC10062F2CF /* PinButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinButton.swift; sourceTree = "<group>"; };
+		D2139C051E370BC10062F2CF /* DotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2139BC21E370AC00062F2CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2139BD61E370AC00062F2CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2139BE11E370AC00062F2CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2139BBC1E370AC00062F2CF = {
+			isa = PBXGroup;
+			children = (
+				D2139BC71E370AC00062F2CF /* NMLocker */,
+				D2139BDC1E370AC00062F2CF /* NMLockerTests */,
+				D2139BE71E370AC00062F2CF /* NMLockerUITests */,
+				D2139BC61E370AC00062F2CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2139BC61E370AC00062F2CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2139BC51E370AC00062F2CF /* NMLocker.app */,
+				D2139BD91E370AC00062F2CF /* NMLockerTests.xctest */,
+				D2139BE41E370AC00062F2CF /* NMLockerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2139BC71E370AC00062F2CF /* NMLocker */ = {
+			isa = PBXGroup;
+			children = (
+				D2139BC81E370AC00062F2CF /* AppDelegate.swift */,
+				D2139BCA1E370AC00062F2CF /* ViewController.swift */,
+				D2139BCC1E370AC00062F2CF /* Main.storyboard */,
+				D2139BCF1E370AC00062F2CF /* Assets.xcassets */,
+				D2139BD11E370AC00062F2CF /* LaunchScreen.storyboard */,
+				D2139BD41E370AC00062F2CF /* Info.plist */,
+				D2139C061E370BC10062F2CF /* LockView */,
+			);
+			path = NMLocker;
+			sourceTree = "<group>";
+		};
+		D2139BDC1E370AC00062F2CF /* NMLockerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2139BDD1E370AC00062F2CF /* NMLockerTests.swift */,
+				D2139BDF1E370AC00062F2CF /* Info.plist */,
+			);
+			path = NMLockerTests;
+			sourceTree = "<group>";
+		};
+		D2139BE71E370AC00062F2CF /* NMLockerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2139BE81E370AC00062F2CF /* NMLockerUITests.swift */,
+				D2139BEA1E370AC00062F2CF /* Info.plist */,
+			);
+			path = NMLockerUITests;
+			sourceTree = "<group>";
+		};
+		D2139C061E370BC10062F2CF /* LockView */ = {
+			isa = PBXGroup;
+			children = (
+				D2139C011E370BC10062F2CF /* BlurView.swift */,
+				D2139C021E370BC10062F2CF /* LockView.swift */,
+				D2139C031E370BC10062F2CF /* LockView.xib */,
+				D2139C041E370BC10062F2CF /* PinButton.swift */,
+				D2139C051E370BC10062F2CF /* DotView.swift */,
+			);
+			name = LockView;
+			path = ../../Trial/NMLocker/Demo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2139BC41E370AC00062F2CF /* NMLocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2139BED1E370AC00062F2CF /* Build configuration list for PBXNativeTarget "NMLocker" */;
+			buildPhases = (
+				D2139BC11E370AC00062F2CF /* Sources */,
+				D2139BC21E370AC00062F2CF /* Frameworks */,
+				D2139BC31E370AC00062F2CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NMLocker;
+			productName = NMLocker;
+			productReference = D2139BC51E370AC00062F2CF /* NMLocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2139BD81E370AC00062F2CF /* NMLockerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2139BF01E370AC00062F2CF /* Build configuration list for PBXNativeTarget "NMLockerTests" */;
+			buildPhases = (
+				D2139BD51E370AC00062F2CF /* Sources */,
+				D2139BD61E370AC00062F2CF /* Frameworks */,
+				D2139BD71E370AC00062F2CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2139BDB1E370AC00062F2CF /* PBXTargetDependency */,
+			);
+			name = NMLockerTests;
+			productName = NMLockerTests;
+			productReference = D2139BD91E370AC00062F2CF /* NMLockerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2139BE31E370AC00062F2CF /* NMLockerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2139BF31E370AC00062F2CF /* Build configuration list for PBXNativeTarget "NMLockerUITests" */;
+			buildPhases = (
+				D2139BE01E370AC00062F2CF /* Sources */,
+				D2139BE11E370AC00062F2CF /* Frameworks */,
+				D2139BE21E370AC00062F2CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2139BE61E370AC00062F2CF /* PBXTargetDependency */,
+			);
+			name = NMLockerUITests;
+			productName = NMLockerUITests;
+			productReference = D2139BE41E370AC00062F2CF /* NMLockerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2139BBD1E370AC00062F2CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Nikhil Manapure";
+				TargetAttributes = {
+					D2139BC41E370AC00062F2CF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MB79L4C87D;
+						ProvisioningStyle = Automatic;
+					};
+					D2139BD81E370AC00062F2CF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MB79L4C87D;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D2139BC41E370AC00062F2CF;
+					};
+					D2139BE31E370AC00062F2CF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MB79L4C87D;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D2139BC41E370AC00062F2CF;
+					};
+				};
+			};
+			buildConfigurationList = D2139BC01E370AC00062F2CF /* Build configuration list for PBXProject "NMLocker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2139BBC1E370AC00062F2CF;
+			productRefGroup = D2139BC61E370AC00062F2CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2139BC41E370AC00062F2CF /* NMLocker */,
+				D2139BD81E370AC00062F2CF /* NMLockerTests */,
+				D2139BE31E370AC00062F2CF /* NMLockerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2139BC31E370AC00062F2CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2139BD31E370AC00062F2CF /* LaunchScreen.storyboard in Resources */,
+				D2139C091E370BC10062F2CF /* LockView.xib in Resources */,
+				D2139BD01E370AC00062F2CF /* Assets.xcassets in Resources */,
+				D2139BCE1E370AC00062F2CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2139BD71E370AC00062F2CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2139BE21E370AC00062F2CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2139BC11E370AC00062F2CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2139C0A1E370BC10062F2CF /* PinButton.swift in Sources */,
+				D2139BCB1E370AC00062F2CF /* ViewController.swift in Sources */,
+				D2139C0B1E370BC10062F2CF /* DotView.swift in Sources */,
+				D2139C081E370BC10062F2CF /* LockView.swift in Sources */,
+				D2139BC91E370AC00062F2CF /* AppDelegate.swift in Sources */,
+				D2139C071E370BC10062F2CF /* BlurView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2139BD51E370AC00062F2CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2139BDE1E370AC00062F2CF /* NMLockerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2139BE01E370AC00062F2CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2139BE91E370AC00062F2CF /* NMLockerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2139BDB1E370AC00062F2CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2139BC41E370AC00062F2CF /* NMLocker */;
+			targetProxy = D2139BDA1E370AC00062F2CF /* PBXContainerItemProxy */;
+		};
+		D2139BE61E370AC00062F2CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2139BC41E370AC00062F2CF /* NMLocker */;
+			targetProxy = D2139BE51E370AC00062F2CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2139BCC1E370AC00062F2CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2139BCD1E370AC00062F2CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2139BD11E370AC00062F2CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2139BD21E370AC00062F2CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2139BEB1E370AC00062F2CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2139BEC1E370AC00062F2CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2139BEE1E370AC00062F2CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MB79L4C87D;
+				INFOPLIST_FILE = NMLocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikhilmanapure.NMLocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D2139BEF1E370AC00062F2CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MB79L4C87D;
+				INFOPLIST_FILE = NMLocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikhilmanapure.NMLocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D2139BF11E370AC00062F2CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MB79L4C87D;
+				INFOPLIST_FILE = NMLockerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikhilmanapure.NMLockerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NMLocker.app/NMLocker";
+			};
+			name = Debug;
+		};
+		D2139BF21E370AC00062F2CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MB79L4C87D;
+				INFOPLIST_FILE = NMLockerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikhilmanapure.NMLockerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NMLocker.app/NMLocker";
+			};
+			name = Release;
+		};
+		D2139BF41E370AC00062F2CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MB79L4C87D;
+				INFOPLIST_FILE = NMLockerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikhilmanapure.NMLockerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NMLocker;
+			};
+			name = Debug;
+		};
+		D2139BF51E370AC00062F2CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MB79L4C87D;
+				INFOPLIST_FILE = NMLockerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikhilmanapure.NMLockerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NMLocker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2139BC01E370AC00062F2CF /* Build configuration list for PBXProject "NMLocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2139BEB1E370AC00062F2CF /* Debug */,
+				D2139BEC1E370AC00062F2CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2139BED1E370AC00062F2CF /* Build configuration list for PBXNativeTarget "NMLocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2139BEE1E370AC00062F2CF /* Debug */,
+				D2139BEF1E370AC00062F2CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2139BF01E370AC00062F2CF /* Build configuration list for PBXNativeTarget "NMLockerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2139BF11E370AC00062F2CF /* Debug */,
+				D2139BF21E370AC00062F2CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2139BF31E370AC00062F2CF /* Build configuration list for PBXNativeTarget "NMLockerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2139BF41E370AC00062F2CF /* Debug */,
+				D2139BF51E370AC00062F2CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2139BBD1E370AC00062F2CF /* Project object */;
+}
